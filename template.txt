@@ -1,0 +1,23 @@
+What does your Instant Answer do?
+A Cheat Sheet listing the commands in NodeJS
+
+What is the data source for your Instant Answer? (Provide a link if possible)
+Processing.org
+sourceUrl: "http://www.processing.org/"
+
+Why did you choose this data source?
+Reliable and extensive
+
+Are there any other alternative (better) data sources?
+No
+
+Which communities will this Instant Answer be especially useful for? (gamers, book lovers, etc)
+Programmers
+
+Is this Instant Answer connected to a DuckDuckHack Instant Answer idea?
+Yes, https://duck.co/ia/view/jive_talk_cheat_sheet
+
+Are you having any problems? Do you need our help with anything?
+Not yet
+
+What does the Instant Answer look like? (Provide a screenshot for new or updated Instant Answers)
