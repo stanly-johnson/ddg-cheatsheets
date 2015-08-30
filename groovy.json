@@ -3,8 +3,8 @@
     "name": "Groovy",
     "description": "Groovy cheat Sheet",
     "metadata": {
-        "sourceName": "Github",
-        "sourceUrl": "http://voituk.kiev.ua/wp-content/uploads/2008/10/groovy_online_100.pdf"
+        "sourceName": "Groovy-Language",
+        "sourceUrl": "http://www.groovy-lang.org/syntax.html"
     },
     "template_type": "reference",
     "section_order": [
@@ -142,47 +142,6 @@
     "key":"while (<expr>) {...}",
     "val":"Basic while loop"
   }
-  ],
-     "Exceptions": [{
-       "key":"try {...}",
-       "val":"Try block syntax"
-     },{
-       "key":"catch (SpecficException ex){...}",
-       "val":"Catch block syntax"
-     },{
-       "key":"finally {...}",
-       "val":"Default exception execution"
-     }
-     ],
-
-     "Class Definition": [{
-       "key":"F1",
-       "val":"Repeat of previously entered characters"
-     },{
-       "key":"F2",
-       "val":"Copies any number of characters from previous command line"
-     },{
-       "key":"F3",
-       "val":"Repeats content of previous command line"
-     },{
-       "key":"F4",
-       "val":"Deletes characters from previous command line"
-     },{
-       "key":"F5",
-       "val":"Return to previous command line"
-     },{
-       "key":"F6",
-       "val":"Enters (Ctrl+z)"
-     },{
-       "key":"F7",
-       "val":"History of command line entries"
-     },{
-       "key":"F8",
-       "val":"Display previous command line entries"
-     },{
-       "key":"F9",
-       "val":"Recall previous entries by number"
-     }
-     ]
+  ]
 }
 }
