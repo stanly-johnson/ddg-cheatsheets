@@ -1,5 +1,4 @@
 # Object file
-*.o
+nodejs.json
+haskell.json
 
-# Ada Library Information
-*.ali
