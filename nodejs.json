@@ -1,12 +1,12 @@
 {
     "id": "nodejs_cheat_sheet",
     "name": "NodeJS",
-    "description": "NodeJS cheat Sheet",
+    "description": "NodeJS Cheat Sheet",
     "metadata": {
         "sourceName": "Gosquared",
         "sourceUrl": "https://www.gosquared.com/resources/node-cheat-sheet/"
     },
-    "template_type": "reference",
+    "template_type": "code",
     "section_order": [
         "Getting Started",
         "Globals",
@@ -125,26 +125,14 @@
       "key":"net",
         "val":"Asynchronous network wrapper for creating streams"
     },{
-      "key":"net.createServer([options], [connectionListener])",
-      "val":"Create TCP server.Returns net.Server"
-    },{
-      "key":"server.listen(port, [host], [callback])",
-      "val":"Bind on host:port. listener is executed when bound"
-    },{
       "key":"server.listenFD(fd)",
       "val":"Listen on file descriptor fd"
     },{
       "key":"server.close()",
       "val":"Stop accepting new connections"
     },{
-      "key":"socket.connect(port, [host], [callback])",
-      "val":"Open connection to socket"
-    },{
       "key":"socket.bufferSize",
       "val":"Number of characters in internal write buffer"
-    },{
-      "key":"socket.write(data, [encoding], [callback])",
-      "val":"Send data on socket"
     },{
       "key":"socket.end()",
       "val":"Send FIN packet"
