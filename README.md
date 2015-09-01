@@ -1,6 +1,7 @@
 #Cheatsheets
 
-Cheatsheets created by me for DuckDuckGo
-All cheatsheets have not been merged, this is just a personal repo to keep track of all the cheatsheets.
+Cheatsheets created by me for DuckDuckGo.<br/>
+All cheatsheets have not been merged to the main repo, this is just a personal repo to keep track of all the cheatsheets.
 
-You can contribute to DDG at https://duck.co/duckduckhack/ddh-intro
+You can contribute to DDG at https://duck.co/duckduckhack/ddh-intro <br/>
+DDG github page : https://github.com/duckduckgo
