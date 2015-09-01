@@ -6,7 +6,7 @@
         "sourceName": "Groovy-Language",
         "sourceUrl": "http://www.groovy-lang.org/syntax.html"
     },
-    "template_type": "reference",
+    "template_type": "code",
     "section_order": [
         "Type List",
         "Operators",
@@ -131,13 +131,13 @@
   }
   ],
   "Loops":[{
-    "key":"for (<var> in <value>) {...}",
+    "key":"[for (<var> in <value>) {...}]",
     "val":"Basic for loop"
   },{
-    "key":"for (int i = 0; i < 10; i += 2) {...}",
+    "key":"[for (int i = 0; i < 10; i += 2) {...}]",
     "val":"For loop similar to java"
   },{
-    "key":"while (<expr>) {...}",
+    "key":"[while (<expr>) {...}]",
     "val":"Basic while loop"
   }
   ]
