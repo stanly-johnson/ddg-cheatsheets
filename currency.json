@@ -15,8 +15,7 @@
         "South America",
         "Antartica",
         "Oceania",
-        "H"
-        ],
+      ],
     "sections": {
         "Africa": [{
             "key":"Algeria",
@@ -47,91 +46,125 @@
             "val":"Aircraft Carrier"
           }
         ],
-        "Europe":[{
-            "key":"Chalk",
-            "val":"Soldiers deployed from single aircraft"
+        "North America": [{
+            "key":"Antigua and Barbuda",
+            "val":"East Caribbean Dollar"
           }, {
-            "key":"Charlie Mike",
-            "val":"Continue mission"
+            "key":"Bahamas",
+            "val":"Bahamian Dollar"
           }, {
-            "key":"Check Six",
-            "val":"Watch your back"
+            "key":"Barbados",
+            "val":"Barbadian Dollar"
           }, {
-            "key":"Cover",
-            "val":"Headgear"
+            "key":"Belize",
+            "val":"Belize Dollar"
+          }, {
+            "key":"Bermuda",
+            "val":"Bermudian Dollar"
+          }, {
+            "key":"Canada",
+            "val":"Canadian Dollar"
+          }, {
+            "key":"Costa Rica",
+            "val":"Costa Rican colon"
+          }, {
+            "key":"Cuba",
+            "val":"Cuban Peso"
+          }, {
+            "key":"Dominican Republic",
+            "val":"Dominican Peso"
+          }, {
+            "key":"El Salvador",
+            "val":"United States Dollar"
+          }, {
+            "key":"Guatemala",
+            "val":"Guatemalan quetzal"
+          }, {
+            "key":"Jamaica",
+            "val":"Jamaican Dollar"
+          }, {
+            "key":"Mexico",
+            "val":"Mexican Peso"
+          }, {
+            "key":"Panama",
+            "val":"United States Dollar"
+          }, {
+            "key":"United States of America",
+            "val":"United States Dollar"
           }
         ],
-           "D": [{
-             "key":"Death Jet",
-            "val":"F-22 Raptor"
-             } , {
-            "key":"Ditch",
-            "val":"Crash into sea"
+        "South America": [{
+            "key":"Argentina",
+            "val":"Peso"
           }, {
-            "key":"Driver",
-            "val":"Fighter pilot"
+            "key":"Bolivia",
+            "val":"Boliviano"
           }, {
-            "key":"Dropped",
-            "val":"Punished"
+            "key":"Brazil",
+            "val":"Real"
+          }, {
+            "key":"Chile",
+            "val":"Peso"
+          }, {
+            "key":"Colombia",
+            "val":"Peso"
+          }, {
+            "key":"Ecuador",
+            "val":"United States Dollar"
+          }, {
+            "key":"Falkland Islands",
+            "val":"Falklands Island Pound"
+          }, {
+            "key":"French Guiana",
+            "val":"Euro"
+          }, {
+            "key":"Guyana",
+            "val":"Guyanese Dollar"
+          }, {
+            "key":"Paraguay",
+            "val":"Guarani"
+          }, {
+            "key":"Peru",
+            "val":"Nuevo Sol"
+          }, {
+            "key":"Suriname",
+            "val":"Surinamese Dollar"
+          }, {
+            "key":"Uruguay",
+            "val":"Uruguayan Peso"
+          }, {
+            "key":"Venezuela",
+            "val":"Bolívar fuerte"
           }
-           ],
-
-           "E": [{
-               "key":"Eagle Driver",
-               "val":"F-15 pilot"
-             }, {
-               "key":"Endex",
-               "val":"End Exercise"
-             }, {
-               "key":"Extra",
-               "val":"Extra duty as punishment"
-               }, {
-               "key":"Elsie",
-               "val":"Lance-Corporal"
-             }
-           ],
-           "F": [{
-               "key":"Fart Sack",
-               "val":"Sleeping Bag"
-             }, {
-               "key":"Fast Movers",
-               "val":"Jet Fighters"
-             }, {
-               "key":"Fort Fumble",
-               "val":"The Pentagon"
-             }, {
-               "key":"FUBAR",
-               "val":"Fucked up beyond all recognition"
-             }
-           ],
-           "G": [{
-               "key":"Gabra",
-               "val":"Confused"
-             }, {
-               "key":"Ganked",
-               "val":"Stolen"
-             }, {
-               "key":"G.I",
-               "val":"Government Issue"
-             }, {
-               "key":"Gone Elvis",
-               "val":"Missing in action"
-             }
-           ],
-           "H": [{
-               "key":"Hawk",
-               "val":"Extreme cold weather"
-             }, {
-               "key":"Head Shed",
-               "val":"Headquarters"
-             }, {
-               "key":"Hun",
-               "val":"F-100 fighter"
-             }, {
-               "key":"HUA",
-               "val":"Heard Understood Acknowledged"
-             }
-           ]
+        ],
+        "Oceania": [{
+            "key":"Australia",
+            "val":"Australian Dollar"
+          }, {
+            "key":"Fiji",
+            "val":"Fijian Dollar"
+          }, {
+            "key":"New Zealand",
+            "val":"New Zealand Dollar"
+          }, {
+            "key":"Vanuatu",
+            "val":"Vanuatu Vatu"
+          }, {
+            "key":"American Samoa",
+            "val":"United States Dollar"
+          }, {
+            "key":"Cook Islands",
+            "val":"Cook Islands Dollar"
+          }
+        ],
+        "Antartica":[{
+            "key":"French Southern Territories",
+            "val":"Euro"
+          }, {
+            "key":"South Georgia and the South Sandwich Islands",
+            "val":"Pound Sterling"
+          }
+        ]
 
     }
 }
