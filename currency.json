@@ -16,59 +16,7 @@
         "Antartica",
         "Oceania"
         ],
-    "sections": {
-        "Africa": [
-<<<<<<< HEAD
-        ],
-
-        "Asia": [
-        ],
-        "North America": [{
-            "key":"Antigua and Barbuda",
-            "val":"East Caribbean Dollar"
-          }, {
-            "key":"Bahamas",
-            "val":"Bahamian Dollar"
-          }, {
-            "key":"Barbados",
-            "val":"Barbadian Dollar"
-          }, {
-            "key":"Belize",
-            "val":"Belize Dollar"
-          }, {
-            "key":"Bermuda",
-            "val":"Bermudian Dollar"
-          }, {
-            "key":"Canada",
-            "val":"Canadian Dollar"
-          }, {
-            "key":"Costa Rica",
-            "val":"Costa Rican colon"
-          }, {
-            "key":"Cuba",
-            "val":"Cuban Peso"
-          }, {
-            "key":"Dominican Republic",
-            "val":"Dominican Peso"
-          }, {
-            "key":"El Salvador",
-            "val":"United States Dollar"
-          }, {
-            "key":"Guatemala",
-            "val":"Guatemalan quetzal"
-          }, {
-            "key":"Jamaica",
-            "val":"Jamaican Dollar"
-          }, {
-            "key":"Mexico",
-            "val":"Mexican Peso"
-          }, {
-            "key":"Panama",
-            "val":"United States Dollar"
-          }, {
-            "key":"United States of America",
-            "val":"United States Dollar"
-=======
+        "Africa":[
         {
             "key":"Algeria",
             "val":"Dinar"
@@ -163,7 +111,7 @@
         {
             "key":"Thailand",
             "val":"Baht"
->>>>>>> a9627373ac862b18af6e5434ab5341d593e64141
+
           }
 
         ],
