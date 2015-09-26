@@ -1,5 +1,5 @@
 {
-    "id": "Currency_cheat_sheet",
+    "id": "currency_cheat_sheet",
     "name": "Currencies",
     "description": "Currency Cheatsheet",
     "metadata": {
@@ -16,146 +16,106 @@
         "Antartica",
         "Oceania"
         ],
-        "Africa":[
-        {
-            "key":"Algeria",
-            "val":"Dinar"
-          },
-        {
-            "key":"Angola",
-            "val":"Kwanza"
-          },
-        {
+    "sections": {
+    "Africa":[{
+           "key":"Algeria",
+           "val":"Dinar"
+          },{
+           "key":"Angola",
+           "val":"Kwanza"
+          },{
             "key":"Botswana",
-            "val":"Pula"
-          },
-        {
-            "key":"Cameroon",
-            "val":"CFA franc"
-          },
-        {
-        	 "key":"Egypt",
-            "val":"Egyptian pound"
-        },
-        {
+           "val":"Pula"
+          },{
+           "key":"Cameroon",
+           "val":"CFA franc"
+          },{
+            "key":"Egypt",
+           "val":"Egyptian pound"
+          },{
             "key":"Ethiopia",
-            "val":" Birr "
-          },
-        {
+            "val":"Birr "
+          },{
             "key":"Ghana",
             "val":"Ghana cedi"
-          },
-        {
+          },{
             "key":"Kenya",
             "val":"Kenyan shilling"
-          },
-        {
+          },{
             "key":"Libya",
             "val":"Dinar"
-          },
-        {
+          },{
             "key":"Mali",
             "val":"CFA franc"
-          },
-        {
+          },{
             "key":"Nigeria",
             "val":"Naira"
-          },
-        {
+          },{
             "key":"South Africa",
             "val":"South African rand"
-          },
-        {
+          },{
             "key":"Sudan",
             "val":"Sudanese pound"
-          },
-        {
+          },{
             "key":"Uganda",
             "val":"Ugandan shilling"
-          }
-        ],
-
-        "Asia": [
-        {
+          } ],
+        "Asia": [{
             "key":"Afghanistan",
             "val":"Afghani"
-          },
-        {
+          },{
             "key":"Bahrain",
             "val":"Bahraini dinar"
-          },
-        {
+          },{
             "key":"Bangladesh",
             "val":"Taka"
-          },
-        {
+          },{
             "key":"China",
             "val":"Renminbi (yuan)"
-          },
-        {
+          },{
             "key":"Hong Kong",
             "val":"Hong Kong dollar"
-          },
-        {
+          },{
             "key":"India",
             "val":"Indian rupee"
-          },
-        {
-            "key":" Japan",
+          },{
+            "key":"Japan",
             "val":"Yen"
-          },
-        {
+          },{
             "key":"Kuwait",
             "val":"Kuwaiti dinar"
-          },
-        {
+          },{
             "key":"Thailand",
             "val":"Baht"
-
-          }
-
-        ],
-
-
-        "Europe":[
-        {
+           } ],
+        "Europe":[{
             "key":"Austria",
             "val":"Euro"
-          },
-        {
+          },{
             "key":"Belgium",
             "val":"Euro"
-          },
-        {
+          },{
             "key":"France",
             "val":"Euro CFP franc"
-          },
-        {
+          },{
             "key":"Germany",
             "val":"Euro"
-          }
-        {
+          },{
             "key":"Hungary",
             "val":"Forint"
-           }
-        {
+          },{
             "key":"Ireland",
             "val":"Euro"
-          },
-
-        {
+          },{
             "key":"Russia",
             "val":"Russian ruble"
-          },
-        {
+          },{
             "key":"Switzerland",
             "val":"Swiss franc"
-          },
-        {
+          },{
             "key":"Spain",
             "val":"Euro "
-          }
-        ],
+          } ],
         "North America": [{
             "key":"Antigua and Barbuda",
             "val":"East Caribbean Dollar"
@@ -201,8 +161,7 @@
           }, {
             "key":"United States of America",
             "val":"United States Dollar"
-          }
-        ],
+          }],
         "South America": [{
             "key":"Argentina",
             "val":"Peso"
@@ -245,8 +204,7 @@
           }, {
             "key":"Venezuela",
             "val":"Bolívar fuerte"
-          }
-        ],
+          }],
         "Oceania": [{
             "key":"Australia",
             "val":"Australian Dollar"
@@ -265,17 +223,13 @@
           }, {
             "key":"Cook Islands",
             "val":"Cook Islands Dollar"
-          }
-        ],
+          }],
         "Antartica":[{
             "key":"French Southern Territories",
             "val":"Euro"
           }, {
             "key":"South Georgia and the South Sandwich Islands",
             "val":"Pound Sterling"
-          }
-        ]
-
-
+          }]
     }
 }
