@@ -17,34 +17,10 @@
         "Oceania",
       ],
     "sections": {
-        "Africa": [{
-            "key":"Algeria",
-            "val":"Dinar"
-          }, {
-            "key":"Angola",
-            "val":"Kwanza"
-          }, {
-            "key":"Ack",
-            "val":"Anti Aircraft Fire"
-          }, {
-            "key":"Auto-pilot",
-            "val":"Unauthorised flight maneuver"
-          }
+        "Africa": [
         ],
 
-        "Asia": [{
-            "key":"Balls",
-            "val":"Midnight"
-          }, {
-            "key":"Bayonet",
-            "val":"Infantryman"
-          }, {
-            "key":"Beans and Bullets",
-            "val":"Supplies"
-          }, {
-            "key":"Bird Barn",
-            "val":"Aircraft Carrier"
-          }
+        "Asia": [
         ],
         "North America": [{
             "key":"Antigua and Barbuda",
