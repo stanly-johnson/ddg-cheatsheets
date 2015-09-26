@@ -1,0 +1,137 @@
+{
+    "id": "Currency_cheat_sheet",
+    "name": "Currencies",
+    "description": "Currency Cheatsheet",
+    "metadata": {
+        "sourceName": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_capitals_with_currency_and_language"
+    },
+    "template_type": "reference",
+    "section_order": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "South America",
+        "Antartica",
+        "Oceania",
+        "H"
+        ],
+    "sections": {
+        "Africa": [{
+            "key":"Algeria",
+            "val":"Dinar"
+          }, {
+            "key":"Angola",
+            "val":"Kwanza"
+          }, {
+            "key":"Ack",
+            "val":"Anti Aircraft Fire"
+          }, {
+            "key":"Auto-pilot",
+            "val":"Unauthorised flight maneuver"
+          }
+        ],
+
+        "Asia": [{
+            "key":"Balls",
+            "val":"Midnight"
+          }, {
+            "key":"Bayonet",
+            "val":"Infantryman"
+          }, {
+            "key":"Beans and Bullets",
+            "val":"Supplies"
+          }, {
+            "key":"Bird Barn",
+            "val":"Aircraft Carrier"
+          }
+        ],
+        "Europe":[{
+            "key":"Chalk",
+            "val":"Soldiers deployed from single aircraft"
+          }, {
+            "key":"Charlie Mike",
+            "val":"Continue mission"
+          }, {
+            "key":"Check Six",
+            "val":"Watch your back"
+          }, {
+            "key":"Cover",
+            "val":"Headgear"
+          }
+        ],
+           "D": [{
+             "key":"Death Jet",
+            "val":"F-22 Raptor"
+             } , {
+            "key":"Ditch",
+            "val":"Crash into sea"
+          }, {
+            "key":"Driver",
+            "val":"Fighter pilot"
+          }, {
+            "key":"Dropped",
+            "val":"Punished"
+          }
+           ],
+
+           "E": [{
+               "key":"Eagle Driver",
+               "val":"F-15 pilot"
+             }, {
+               "key":"Endex",
+               "val":"End Exercise"
+             }, {
+               "key":"Extra",
+               "val":"Extra duty as punishment"
+               }, {
+               "key":"Elsie",
+               "val":"Lance-Corporal"
+             }
+           ],
+           "F": [{
+               "key":"Fart Sack",
+               "val":"Sleeping Bag"
+             }, {
+               "key":"Fast Movers",
+               "val":"Jet Fighters"
+             }, {
+               "key":"Fort Fumble",
+               "val":"The Pentagon"
+             }, {
+               "key":"FUBAR",
+               "val":"Fucked up beyond all recognition"
+             }
+           ],
+           "G": [{
+               "key":"Gabra",
+               "val":"Confused"
+             }, {
+               "key":"Ganked",
+               "val":"Stolen"
+             }, {
+               "key":"G.I",
+               "val":"Government Issue"
+             }, {
+               "key":"Gone Elvis",
+               "val":"Missing in action"
+             }
+           ],
+           "H": [{
+               "key":"Hawk",
+               "val":"Extreme cold weather"
+             }, {
+               "key":"Head Shed",
+               "val":"Headquarters"
+             }, {
+               "key":"Hun",
+               "val":"F-100 fighter"
+             }, {
+               "key":"HUA",
+               "val":"Heard Understood Acknowledged"
+             }
+           ]
+
+    }
+}
