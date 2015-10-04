@@ -1,0 +1,161 @@
+{
+    "id": "raspberrypi_cheat_sheet",
+    "name": "Raspberry Pi",
+    "description": "Raspberry Pi Shortcuts ",
+    "metadata": {
+        "sourceName": "Raspberry Pi Guide",
+        "sourceUrl": "http://raspberrypiguide.de/"
+    },
+    "section_order": [
+        "System",
+        "Web Server",
+        "Audio",
+        "GUI Keyboard Shortcuts",
+        "SSH",
+        "Basic GPIO Access",
+        "selection"
+    ],
+    "sections": {
+        "System": [{
+            "key":"ipconfig",
+            "val":"Get system info"
+          }, {
+            "key":"iwconfig",
+            "val":"Get network info"
+          }, {
+            "key":"hostname",
+            "val":"Get hostname"
+          }, {
+            "key":"hostname -I",
+            "val":"Get hostname IP"
+          }, {
+             "key":"lsusb",
+             "val":"Check for all connected devices"
+          }, {
+            "key":"sudo raspi-config",
+            "val":"Switch to config"
+          }, {
+            "key":"startx",
+            "val":"Switch to GUI"
+          }, {
+            "key":"sudo reboot",
+            "val":"Reboot system"
+        }, {
+            "key":"sudo shutdown -h now",
+            "val":"Shutdown"
+        }, {
+            "key":"sudo update-rc.d ssh defaults",
+            "val":"Start SSH while booting"
+        }],
+        "Web Server": [{
+            "key":"sudo apt-get update",
+            "val":"Update System"
+          }, {
+            "key":"sudo apt-get upgrade",
+            "val":"Upgrade System"
+          }, {
+            "key":"sudo apt-get install apache2 php5",
+            "val":"Install web server"
+          }, {
+            "key":"sudo apt-get install mysql-server mysql-client php5-mysql",
+            "val":"Install MySQL"
+          }, {
+            "key":"sudo service apache2 restart",
+            "val":"Restart Apache"
+          }, {
+            "key":"sudo apt-get install avahi-daemon",
+            "val":"Install Avahi"
+          }],
+        "Audio": [{
+            "key":"omxplayer audio.mp3",
+            "val":"Play audio file"
+          }, {
+            "key":"+/-",
+            "val":"Control Volume"
+          }],
+        "GUI Keyboard Shortcuts": [{
+            "key":"[Ctrl] [Esc]",
+            "val":"System Menu"
+          }, {
+            "key":"[Alt] [Space]",
+            "val":"Open program menu"
+          }, {
+            "key":"[Alt] [Tab]",
+            "val":"Switch Programs"
+          }, {
+            "key":"[Alt] [highlighted letter]",
+            "val":"Access dropdown"
+          }, {
+            "key":"[Ctrl] [Q]",
+            "val":"Close Window"
+          }, {
+            "key":"[Ctrl] [Alt] [Backspace]",
+            "val":"Back to CLI"
+          }, {
+            "key":"[Ctrl] [Alt] [0]",
+            "val":"Minimise Window"
+          }, {
+            "key":"[Ctrl] [Alt] [T]",
+            "val":"Open Terminal"
+          },],
+        "SSH": [{
+            "key":"ssh pi@raspberrypi",
+            "val":"Connect via ssh + name"
+          }, {
+            "key":"ssh pi@192.168.64.xxx",
+            "val":"Connect via ssh + ip"
+          }],
+        "Basic GPIO Access": [{
+            "key":"[Alt] [G] [B])",
+            "val":"Open on Github : blame"
+          }, {
+            "key":"[Alt] [G] [C])",
+            "val":"Open on Github: copy-url"
+          }, {
+            "key":"[Alt] [G] [G])",
+            "val":"Open on Github: repository"
+          }, {
+            "key":"[Alt] [G] [H])",
+            "val":"Open on Github: history"
+          }, {
+            "key":"[Alt] [G] [I])",
+            "val":"Open on Github: issues"
+          }, {
+             "key":"[Alt] [G] [R])",
+            "val":"Open on Github: branch-compare"
+        }],
+
+        "Selection": [{
+            "key":"[Ctrl] [D]",
+            "val":"Quick select (repeat to add next)"
+          }, {
+            "key":"[Ctrl] [U]",
+            "val":"Undo quick select"
+          }, {
+            "key":"[Ctrl] [K], [D]",
+            "val":"Skip and quick add next"
+          }, {
+            "key":"[Ctrl] [Shift] [L]",
+            "val":"Split into lines (adds cursor to each line of current selection)"
+          }, {
+            "key":"[Alt] [Ctrl] ([↑]/[↓])",
+            "val":"Add previous/next line"
+          }, {
+            "key":"[Ctrl] [L]",
+            "val":"Expand selection to line"
+          }, {
+            "key":"[Ctrl] [Shift] [Space]",
+            "val":"Expand selection to scope"
+          }, {
+            "key":"[Ctrl] [Shift] [M]",
+            "val":"Expand selection to brackets"
+          }, {
+            "key":"[Ctrl] [Shift] [J]",
+            "val":"Expand selection to indent­ation"
+          }, {
+            "key":"[Ctrl] [Shift] [A]",
+            "val":"Expand selection to tag"
+          }
+        ]
+    }
+}
