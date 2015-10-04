@@ -2,190 +2,138 @@
     "id": "ros_cheat_sheet",
     "name": "Robot Operating System",
     "metadata": {
-        "sourceName": "Processing.org",
-        "sourceUrl": "https://www.processing.org/reference/"
+        "sourceName": "ros.org",
+        "sourceUrl": "https://www.ros.org/"
     },
     "template_type": "terminal",
     "section_order": [
-        "Basic Structure",
-        "Basic Functions",
-        "Random and Noise",
-        "Matrix Operations",
-        "Basic Geometry",
-        "Image Functions",
-        "Events Capture",
-        "Array Functions",
-        "Color Functions",
-        "Camera"
+        "File System Management",
+        "Startup Tools",
+        "Logging Tools",
+        "Introspection and Command",
+        "Development Environment",
+        "Data Visualisation"
     ],
   "sections": {
-  "Basic Structure":[{
-      "key":"void setup()",
-      "val":"Runs once"
+  "File System Management":[{
+      "key":"rospack",
+      "val":"A tool inspecting packages"
     }, {
-      "key":"void draw()",
-      "val":"Runs repeatedly during execution"
-    }
-  ],
-  "Basic Functions": [{
-      "key":"size(width,height)",
-      "val":"Sets main window size"
-    }, {
-      "key":"background(color)",
-      "val":"Sets window background color"
-    }, {
-      "key":"smooth()",
-      "val":"Set antialiasing on"
-    }, {
-      "key":"frameRate(fps)",
-      "val":"Sets the fps"
+      "key":"roscd",
+      "val":"Change directory to a package or stack"
     },{
-      "key":"println(string)",
-      "val":"Writes a string to console"
-    }
-  ],
-
-  "Random and Noise": [{
-      "key":"random(low,high)",
-      "val":"Returns a random value within the limits"
+      "key":"rospd",
+      "val":"Pushd equivalent for ROS"
     }, {
-      "key":"randomSeed(seed)",
-      "val":"Changes random seed"
+      "key":"rosls",
+      "val":"Lists package or stack information"
+    },{
+      "key":"rosed",
+      "val":"Open requested ROS file in a text editor"
+    }, {
+      "key":"roscp",
+      "val":"Copy a file from one place to another"
+    },{
+      "key":"rosdep",
+      "val":"Installs package system dependencies"
+    }, {
+      "key":"roswtf",
+      "val":"Displays errors and warnings about launch file"
+      }],
+  "Startup Tools": [{
+      "key":"roscore",
+      "val":"The basis nodes and programs for ROS-based system"
+    }, {
+      "key":"rosrun",
+      "val":"Runs a ROS package’s executable with minimal typing."
+    }, {
+      "key":"roslaunch",
+      "val":"Starts a roscore"
+    }],
+
+  "Logging Tools": [{
+      "key":"rqt_console",
+      "val":"A tool to display and filtering messages published on rosout"
+    }, {
+      "key":"rqt_bag",
+      "val":"A tool for visualizing, inspecting, and replaying bag files"
     }, {
       "key":"noise(value)",
       "val":"Returns a value in Perlin Noise sequence"
     }, {
-      "key":"noiseDetail(octaves)",
-      "val":"Sets threshold for noise function result"
+      "key":"rqt_logger_level",
+      "val":"Change the logger level of ROS nodes"
     },{
-      "key":"noiseSeed(seed)",
-      "val":"Changes noise seed"
+      "key":"rosbag record",
+      "val":"Record a bag file with specified topics"
+    },{
+      "key":"rosbag play",
+      "val":"Play content of one or more bag files"
+    },{
+      "key":"rosbag compress",
+      "val":"Compress one or more bag files"
+    },{
+      "key":"rosbag decompress",
+      "val":"Decompress one or more bag files"
+    },{
+      "key":"rosbag filter",
+      "val":"Filter the contents of the bag"
     }
   ],
-  "Matrix Operations":[{
-      "key":"pushMatrix()",
-      "val":"Saves currrent matrix"
+  "Introspection and Command":[{
+      "key":"rosmsg",
+      "val":"Displays Message/Service (msg/srv) data structure definitions"
     }, {
-      "key":"popMatrix()",
-      "val":"Go back to last saved matrix"
+      "key":"rosnode",
+      "val":"Displays debugging information about ROS nodes"
     }, {
-      "key":"translate(posx,posy)",
-      "val":"Move anchor point to position"
+      "key":"rqt_publisher",
+      "val":"Tools for publishing messages"
     }, {
-      "key":"scale(x.y)",
-      "val":"Scale the plane"
+      "key":"rqt_service_caller",
+      "val":"Tools for calling services"
     },{
-      "key":"shearX(radians)",
-      "val":"Apply a shear on x-axis"
+      "key":"rqt_graph",
+      "val":"Tools for displaying graphs"
     },{
-      "key":"rotate(X)",
-      "val":"Apply rotation to x-axis"
+      "key":"rqt_dep",
+      "val":"Tools for displaying graphs with package dependencies"
     },{
-      "key":"pushStyle()",
-      "val":"Saves current style"
+      "key":"rqt_top",
+      "val":"A tool for ROS specific process monitoring"
+    },{
+      "key":"rqt_reconfigure",
+      "val":"A tool for reconfiguring ROS parameters"
     }
   ],
-     "Basic Geometry": [{
-         "key":"ellipse(posx,posy,width,height)",
-         "val":"Draws ellipse with given values"
-       }, {
-         "key":"rect(posx,posy,width,height)",
-         "val":"Draws rectangle with given values"
-       }, {
-         "key":"line(posx,posy,width,height)",
-         "val":"Draws line with given values"
-       }
-     ],
-
-     "Image Functions": [{
-         "key":"image(img,posx,posy,width,height)",
-         "val":"Draws an image in main screen"
-       }, {
-         "key":"loadImage(filename)",
-         "val":"Initializes PI image"
-       }, {
-         "key":"tint(color)",
-         "val":"Sets tint value"
-       }, {
-         "key":"noTint()",
-         "val":"Disables image tint"
-       },{
-         "key":"saveFrame(filename)",
-         "val":"Saves screenshot to current frame"
-       }
-     ],
-     "Events Capture": [{
-         "key":"void mousePressed()",
-         "val":"Runs when mouse button is pressed"
-       }, {
-         "key":"void mouseClick()",
-         "val":"Runs when mouse button is pressed and released"
-       }, {
-         "key":"void mouseMoved()",
-         "val":"Runs everytime mouse is moved"
-       }, {
-         "key":"void keyPressed()",
-         "val":"Runs on key press event"
-       },{
-         "key":"void keyReleased()",
-         "val":"Runs on key release event"
-       }
-     ],
-     "Array Functions": [{
-         "key":"append(array,value)",
-         "val":"Add a value to an array"
-       }, {
-         "key":"concat(a,b)",
-         "val":"Concatenates two strings"
-       }, {
-         "key":"expand(array,newSize)",
-         "val":"Expands array's size value"
-       }, {
-         "key":"reverse(array)",
-         "val":"Reverses an array"
-       },{
-         "key":"shorten(array)",
-         "val":"Reduces array size"
-       },{
-         "key":"sort(array)",
-         "val":"Sort array in increasing order"
-       }  ],
-     "Color Functions": [{
-         "key":"colorMode(mode)",
-         "val":"Set color mode"
-       }, {
-         "key":"red(color)",
-         "val":"Returns red value of color"
-       }, {
-         "key":"hue(color)",
-         "val":"Returns hue value of color"
-       }, {
-         "key":"saturation(color)",
-         "val":"Returns saturation value of color"
-       },{
-         "key":"alpha(color)",
-         "val":"Returns transparency value of color"
-       },{
-         "key":"lerpColor(color1,color2,moment)",
-         "val":"Returns a color value between two colors"
-       }
-     ],
-     "Camera": [{
-         "key":"beginCamera()",
-         "val":"Runs when mouse button is pressed"
-       }, {
-         "key":"camera()",
-         "val":"Runs when mouse button is pressed and released"
-       }, {
-         "key":"perspective()",
-         "val":"Runs everytime mouse is moved"
-       }, {
-         "key":"printCamera()",
-         "val":"Runs on key press event"
-       },{
-         "key":"printProjection()",
-         "val":"Runs on key release event"
-       }
-     ]
+     "Development Environment": [{
+       "key":"rqt_shell",
+       "val":"Access xterm shell"
+     }, {
+       "key":"rqt_py_console",
+       "val":"Access python console"
+     }, {
+       "key":"rostopic",
+       "val":"A tool for displaying information about ROS topics"
+     }, {
+       "key":"rosparam",
+       "val":"A tool for getting and setting ROS parameters"
+     },{
+       "key":"rosservice",
+       "val":"A tool for listing and querying ROS services"
+     }],
+     "Data Visualisation": [{
+       "key":"tf_echo",
+       "val":"Prints transformation between a source frame and target frame"
+     }, {
+       "key":"view_frames",
+       "val":"A tool for visualizing the full tree of coordinate transforms"
+     }, {
+       "key":"rqt_plot",
+       "val":"A tool for plotting data from ROS topic fields"
+     }, {
+       "key":"rqt_image_view",
+       "val":"A tool to display image topics"
+     }]
 }
 }
