@@ -1,20 +1,20 @@
 {
     "id": "raspberrypi_cheat_sheet",
     "name": "Raspberry Pi",
-    "description": "Raspberry Pi Shortcuts ",
+    "description": "Raspberry Pi Quick Guide",
     "metadata": {
         "sourceName": "Raspberry Pi Guide",
         "sourceUrl": "http://raspberrypiguide.de/"
     },
+    "template_type": "reference",
     "section_order": [
         "System",
         "Web Server",
         "Audio",
         "GUI Keyboard Shortcuts",
         "SSH",
-        "Basic GPIO Access",
-        "selection"
-    ],
+        "Basic GPIO Access"
+        ],
     "sections": {
         "System": [{
             "key":"ipconfig",
@@ -40,13 +40,13 @@
           }, {
             "key":"sudo reboot",
             "val":"Reboot system"
-        }, {
+          }, {
             "key":"sudo shutdown -h now",
             "val":"Shutdown"
-        }, {
+          }, {
             "key":"sudo update-rc.d ssh defaults",
             "val":"Start SSH while booting"
-        }],
+          }],
         "Web Server": [{
             "key":"sudo apt-get update",
             "val":"Update System"
@@ -106,56 +106,29 @@
             "val":"Connect via ssh + ip"
           }],
         "Basic GPIO Access": [{
-            "key":"[Alt] [G] [B])",
-            "val":"Open on Github : blame"
+            "key":"import RPi.GPIO as GPIO",
+            "val":"Gives you access to GPIO functions in GPIO namespace"
           }, {
-            "key":"[Alt] [G] [C])",
-            "val":"Open on Github: copy-url"
+            "key":"GPIO.setmode(GPIO.BCM)",
+            "val":"Set the pin numbering to BCM mode"
           }, {
-            "key":"[Alt] [G] [G])",
-            "val":"Open on Github: repository"
+            "key":"GPIO.setmode(GPIO.BOARD)",
+            "val":"Set the pin numbering to BOARD mode"
           }, {
-            "key":"[Alt] [G] [H])",
-            "val":"Open on Github: history"
+            "key":"GPIO.setup(pin,GPIO.OUT)",
+            "val":"Setup a pin as output pin"
           }, {
-            "key":"[Alt] [G] [I])",
-            "val":"Open on Github: issues"
+            "key":"GPIO.setup(GPIO.IN)",
+            "val":"Setup a pin as input pin"
           }, {
-             "key":"[Alt] [G] [R])",
-            "val":"Open on Github: branch-compare"
-        }],
-
-        "Selection": [{
-            "key":"[Ctrl] [D]",
-            "val":"Quick select (repeat to add next)"
-          }, {
-            "key":"[Ctrl] [U]",
-            "val":"Undo quick select"
-          }, {
-            "key":"[Ctrl] [K], [D]",
-            "val":"Skip and quick add next"
-          }, {
-            "key":"[Ctrl] [Shift] [L]",
-            "val":"Split into lines (adds cursor to each line of current selection)"
-          }, {
-            "key":"[Alt] [Ctrl] ([↑]/[↓])",
-            "val":"Add previous/next line"
-          }, {
-            "key":"[Ctrl] [L]",
-            "val":"Expand selection to line"
-          }, {
-            "key":"[Ctrl] [Shift] [Space]",
-            "val":"Expand selection to scope"
-          }, {
-            "key":"[Ctrl] [Shift] [M]",
-            "val":"Expand selection to brackets"
-          }, {
-            "key":"[Ctrl] [Shift] [J]",
-            "val":"Expand selection to indent­ation"
-          }, {
-            "key":"[Ctrl] [Shift] [A]",
-            "val":"Expand selection to tag"
-          }
-        ]
+            "key":"input = GPIO.input(pin)",
+            "val":"Read value from a pin"
+          },{
+          "key":"GPIO.output(pin,GPIO.HIGH)",
+          "val":"Set a pin to high value"
+          },{
+            "key":"GPIO.output(pin,GPIO.LOW)",
+            "val":"Set a pin to low value"
+            }]
     }
 }
