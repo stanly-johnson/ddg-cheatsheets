@@ -97,7 +97,7 @@
           }, {
             "key":"[Ctrl] [Alt] [T]",
             "val":"Open Terminal"
-          },],
+          }],
         "SSH": [{
             "key":"ssh pi@raspberrypi",
             "val":"Connect via ssh + name"
