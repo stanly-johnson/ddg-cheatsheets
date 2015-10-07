@@ -1,0 +1,139 @@
+{
+    "id": "microsoft_edge_cheat_sheet",
+    "name": "Microsost Edge",
+    "metadata": {
+        "sourceName": "ros.org",
+        "sourceUrl": "https://www.ros.org/"
+    },
+    "template_type": "terminal",
+    "section_order": [
+        "File System Management",
+        "Startup Tools",
+        "Logging Tools",
+        "Introspection and Command",
+        "Development Environment",
+        "Data Visualisation"
+    ],
+  "sections": {
+  "File System Management":[{
+      "key":"rospack",
+      "val":"A tool inspecting packages"
+    }, {
+      "key":"roscd",
+      "val":"Change directory to a package or stack"
+    },{
+      "key":"rospd",
+      "val":"Pushd equivalent for ROS"
+    }, {
+      "key":"rosls",
+      "val":"Lists package or stack information"
+    },{
+      "key":"rosed",
+      "val":"Open requested ROS file in a text editor"
+    }, {
+      "key":"roscp",
+      "val":"Copy a file from one place to another"
+    },{
+      "key":"rosdep",
+      "val":"Installs package system dependencies"
+    }, {
+      "key":"roswtf",
+      "val":"Displays errors and warnings about launch file"
+      }],
+  "Startup Tools": [{
+      "key":"roscore",
+      "val":"The basis nodes and programs for ROS-based system"
+    }, {
+      "key":"rosrun",
+      "val":"Runs a ROS package’s executable with minimal typing."
+    }, {
+      "key":"roslaunch",
+      "val":"Starts a roscore"
+    }],
+
+  "Logging Tools": [{
+      "key":"rqt_console",
+      "val":"A tool to display and filtering messages published on rosout"
+    }, {
+      "key":"rqt_bag",
+      "val":"A tool for visualizing, inspecting, and replaying bag files"
+    }, {
+      "key":"noise(value)",
+      "val":"Returns a value in Perlin Noise sequence"
+    }, {
+      "key":"rqt_logger_level",
+      "val":"Change the logger level of ROS nodes"
+    },{
+      "key":"rosbag record",
+      "val":"Record a bag file with specified topics"
+    },{
+      "key":"rosbag play",
+      "val":"Play content of one or more bag files"
+    },{
+      "key":"rosbag compress",
+      "val":"Compress one or more bag files"
+    },{
+      "key":"rosbag decompress",
+      "val":"Decompress one or more bag files"
+    },{
+      "key":"rosbag filter",
+      "val":"Filter the contents of the bag"
+    }
+  ],
+  "Introspection and Command":[{
+      "key":"rosmsg",
+      "val":"Displays Message/Service (msg/srv) data structure definitions"
+    }, {
+      "key":"rosnode",
+      "val":"Displays debugging information about ROS nodes"
+    }, {
+      "key":"rqt_publisher",
+      "val":"Tools for publishing messages"
+    }, {
+      "key":"rqt_service_caller",
+      "val":"Tools for calling services"
+    },{
+      "key":"rqt_graph",
+      "val":"Tools for displaying graphs"
+    },{
+      "key":"rqt_dep",
+      "val":"Tools for displaying graphs with package dependencies"
+    },{
+      "key":"rqt_top",
+      "val":"A tool for ROS specific process monitoring"
+    },{
+      "key":"rqt_reconfigure",
+      "val":"A tool for reconfiguring ROS parameters"
+    }
+  ],
+     "Development Environment": [{
+       "key":"rqt_shell",
+       "val":"Access xterm shell"
+     }, {
+       "key":"rqt_py_console",
+       "val":"Access python console"
+     }, {
+       "key":"rostopic",
+       "val":"A tool for displaying information about ROS topics"
+     }, {
+       "key":"rosparam",
+       "val":"A tool for getting and setting ROS parameters"
+     },{
+       "key":"rosservice",
+       "val":"A tool for listing and querying ROS services"
+     }],
+     "Data Visualisation": [{
+       "key":"tf_echo",
+       "val":"Prints transformation between a source frame and target frame"
+     }, {
+       "key":"view_frames",
+       "val":"A tool for visualizing the full tree of coordinate transforms"
+     }, {
+       "key":"rqt_plot",
+       "val":"A tool for plotting data from ROS topic fields"
+     }, {
+       "key":"rqt_image_view",
+       "val":"A tool to display image topics"
+     }]
+}
+}
