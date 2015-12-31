@@ -133,7 +133,7 @@
        "val":"A tool for plotting data from ROS topic fields"
      }, {
        "key":"rqt_image_view",
-       "val":"A tool to display image topics"
+       "val":"Display image topics"
      }]
 }
 }
